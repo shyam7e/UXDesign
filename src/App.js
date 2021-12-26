@@ -186,7 +186,7 @@ function App() {
         <Seven isMobile={false} />
       </BrowserView>
       <MobileView>
-        <Carousel showArrows={true}>
+        <Carousel showArrows={true} infiniteLoop={true} autoPlay={true}>
           <One isMobile={true} />
           <Two isMobile={true} />
           <Three isMobile={true} />
